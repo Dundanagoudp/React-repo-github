@@ -1,17 +1,10 @@
 
-import "./components/Netflix.css";
-import "./components/EV.css";
 
-// import{LiftingState} from "./components/LiftStateUp1";
-import {ToggleSwtich} from "./projects/ToggleSwtich/ToggleSwtich"
+// import {ToggleSwtich} from "./projects/ToggleSwtich/ToggleSwtich"
+
+import { Todo } from "./projects/Todo/Todo";
 
 export const App = () => {
-     return (
-          <section className="container">
-     
-{/* <LiftingState/> */}
-<ToggleSwtich/>
-          </section>
-     );
+     return <section>{<Todo/>}</section>
 };
 
