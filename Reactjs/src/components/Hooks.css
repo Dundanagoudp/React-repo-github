@@ -1,0 +1,120 @@
+/* 
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f4f4f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .short-container h1 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    .short-container p {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    .grid-three-cols {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+    
+    .grid-three-cols button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .grid-three-cols button:hover {
+      background-color: #0056b3;
+    }
+    
+    .grid-three-cols button:active {
+      background-color: #004085;
+    }
+     */
+
+     /* Container Styles */
+.container.state-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f8ff, #cce7ff);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Heading Styles */
+.container.state-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Button Styles */
+.state-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.state-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.state-button:active {
+  background-color: #1f6fa4;
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container.state-container h1 {
+    font-size: 2rem;
+  }
+
+  .state-button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container.state-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .state-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
