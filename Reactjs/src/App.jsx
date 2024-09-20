@@ -1,14 +1,7 @@
-
-
-// import {ToggleSwtich} from "./projects/ToggleSwtich/ToggleSwtich"
-
-// import { Counter } from "./components/hooks/useState";
-import CounterChallenge from "./components/hooks/useState/Challenge";
-// import ShortCircuitExample from "./components/ShortCircuit";
-// import { Keys } from "./Kyes";
-// import { Todo } from "./projects/Todo/Todo";
+// import ControlledForm from "./components/hooks/useState/Challenge";
+   import RegistrationForm from "./components/hooks/useState/Regestration";
 
 export const App = () => {
-     return <section>{<CounterChallenge />}</section>
+     return <section>{< RegistrationForm  />}</section>
 };
 
