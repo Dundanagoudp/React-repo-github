@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  background-color: #00182f; /* Set the background color */
+  color: white; /* Ensure text defaults to white */
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  color: white; /* Ensure all headings are white */
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: bold;
+  text-align: center;
+  color: white !important; /* Use !important to enforce the white color */
+}
+
+p,
+span {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 152rem;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-three-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  text-align: center;
+  margin: 3.2rem 0;
+  align-items: end;
+}
+
+header {
+  margin: 3.2rem 0;
+}
+
+input[type="text"] {
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 32rem;
+  border-bottom: 0.2em solid #020d35;
+  background: rgba(233, 30, 99, 0.2); /* Correct rgba syntax */
+  border-radius: 0.2em 0.2em 0 0;
+  padding: 0.8em;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+/* ///////////////////////////////////////// */
+.effect-container {
+  width: 65rem;
+  padding: 0 6.4rem;
+}
+
+.effect-container h1 {
+  margin-bottom: 3.2rem;
+  color: white; /* Ensure h1 in effect-container is white */
+}
+
+.effect-container p {
+  margin-bottom: 1.6rem;
+}
+
+.effect-container span {
+  font-weight: bold;
+}
+
+.effect-container button {
+  padding: 0.6rem 1.6rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin-bottom: 3.2rem;
+  background-color: #2ecc71;
+  border: none;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+
+.odometer {
+  font-size: calc(2rem + 5vw);
+}
+
+.title {
+  letter-spacing: 1.5px;
+  line-height: 1.25;
+}
+
+/* Container Styling */
+.effect-container {
+  width: 65rem;
+  padding: 0 6.4rem;
+  text-align: center;
+  margin: auto;
+}
+
+/* h1 Styling */
+.effect-container h1 {
+  margin-bottom: 3.2rem;
+  font-size: 5.4rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* p Tag Styling */
+.effect-container p {
+  font-size: 2rem; /* Increase font size for better readability */
+  color: white; /* Ensure text is white */
+  margin-bottom: 2rem; /* Add margin below the paragraph */
+  font-weight: bold; /* Bold the text */
+}
+
+/* Button Styling */
+.effect-container button {
+  padding: 0.6rem 2.4rem; /* Adjust padding for a more clickable button */
+  font-size: 1.8rem; /* Slightly increase font size */
+  cursor: pointer;
+  margin-bottom: 3.2rem;
+  background-color: #2ecc71; /* Green background */
+  border: none;
+  color: white; /* White text on the button */
+  border-radius: 0.4rem; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+.effect-container button:hover {
+  background-color: #27ae60; /* Darken green on hover */
+}
