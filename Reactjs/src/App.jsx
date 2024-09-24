@@ -1,8 +1,7 @@
-// import ControlledForm from "./components/hooks/useState/Challenge";
-   // import RegistrationForm from "./components/hooks/useState/Regestration";
-import { RegistrationFormReact } from "./components/hooks/useState/RegestrationReact";
+// import { UseRef } from "./components/hooks/useRef";
+import { ForwardRefs } from "./components/hooks/useRef/ForwardRef";
 
 export const App = () => {
-     return <section>{< RegistrationFormReact  />}</section>
+     return < ForwardRefs/>
 };
 

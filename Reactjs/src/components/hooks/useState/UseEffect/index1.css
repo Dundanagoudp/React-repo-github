@@ -1,0 +1,78 @@
+/* Container Styling */
+.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; /* Full height of viewport */
+      background-color: #f7f9fc; /* Light background */
+      padding: 2rem;
+    }
+    
+    /* Counter Box Styling */
+    .counter {
+      background-color: #1a1a2e; /* Dark background for the counter */
+      color: white; /* White text for contrast */
+      border-radius: 1.2rem; /* Rounded corners */
+      padding: 4rem 6rem; /* Generous padding for breathing space */
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+      text-align: center;
+      max-width: 50rem;
+      width: 100%; /* Responsive width */
+    }
+    
+    /* Paragraph Styling */
+    .counter p {
+      font-size: 2rem;
+      color: #f1f1f1;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      text-transform: uppercase; /* Uppercase styling for a strong look */
+      letter-spacing: 1.5px;
+    }
+    
+    /* Odometer (Count) Styling */
+    .odometer {
+      font-size: calc(3rem + 5vw); /* Responsive scaling font size */
+      color: #e94560; /* Red-pink for emphasis */
+      font-weight: bold;
+      margin-bottom: 2rem;
+      animation: pulse 1.5s infinite; /* Pulsing animation for effect */
+    }
+    
+    /* Title Styling */
+    .title {
+      font-size: 2.2rem;
+      color: #ffffff;
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 1.5;
+    }
+    
+    /* Responsive Styling for Small Screens */
+    @media (max-width: 768px) {
+      .counter {
+        padding: 2rem;
+      }
+    
+      .title {
+        font-size: 1.8rem;
+      }
+    
+      .odometer {
+        font-size: calc(2rem + 5vw);
+      }
+    }
+    
+    /* Pulse Animation for Odometer */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
