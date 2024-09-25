@@ -2,6 +2,10 @@
    It allows you to define styles that should be applied globally, affecting all components within the app. */
 
 
+   @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Base rule */
 *,
 *::before,

@@ -1,7 +1,11 @@
-// import { UseRef } from "./components/hooks/useRef";
-import { ForwardRefs } from "./components/hooks/useRef/ForwardRef";
+import { Home } from "./components/Home";
+import { BioProvider } from "./components/hooks/ContextAPI";
 
 export const App = () => {
-     return < ForwardRefs/>
+     return (
+          <BioProvider>
+               <Home/>
+          </BioProvider>
+     )
 };
 
