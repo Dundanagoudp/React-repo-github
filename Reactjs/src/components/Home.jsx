@@ -1,7 +1,6 @@
-import { useContext } from "react"
-import { BioContext } from "./hooks/ContextAPI"
+import {useBioContext } from "./hooks/ContextAPI"
 
 export const Home=()=>{
-    const{ MyName, MyAge }= useContext(BioContext)
+    const{ MyName, MyAge }= useBioContext();
       return <h1>hello ContextAPI. my name{MyName}. iam yearls old {MyAge}</h1>
 }
